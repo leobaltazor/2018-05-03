@@ -1,0 +1,34 @@
+body {
+	background: #999;
+}
+p{
+	margin: 0;
+	padding: 0;
+}
+.comments {
+	width: 90%;
+	background: white;
+	padding: 5px 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+.comment {
+	padding-left: 10px;
+}
+.comment::before, .comment::after {
+	content: "\0022";
+	font-size: 1.5em;
+}
+.nameAuthor {
+	font-size: 1.1em;
+	font-weight: bold;
+}
+.nameAuthor span {
+	color: grey;
+	font-style: italic;
+	font-size: 0.8em;
+	margin-left: 5px;
+}
+.post {
+
+}
